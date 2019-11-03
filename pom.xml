@@ -7,13 +7,20 @@
     <groupId>tech.read_only.secretsanta</groupId>
     <artifactId>secretsanta</artifactId>
     <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>23.0</version>
+            <version>28.1-jre</version>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -40,8 +47,4 @@
             </plugin>
         </plugins>
     </build>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 </project>
